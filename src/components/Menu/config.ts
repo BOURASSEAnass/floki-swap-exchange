@@ -119,7 +119,7 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/cheeswap',
+        href: 'https://github.com/flokidoge',
       },
       {
         label: 'Docs',
