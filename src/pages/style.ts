@@ -4,7 +4,10 @@ const CenterCard = styled.div`
   display: inline-flex;
   width: 100%;
   justify-content: center;
-  transform: translateX(-64px);
+  
+  ${({ theme }) => theme.mediaQueries.sm} {
+    transform: translateX(-64px);
+  }
 `
 
 const CardGroup = styled.div`
