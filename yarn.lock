@@ -10438,10 +10438,10 @@ flatten@^1.0.2:
   resolved "https://registry.npm.taobao.org/flatten/download/flatten-1.0.3.tgz#c1283ac9f27b368abc1e36d1ff7b04501a30356b"
   integrity sha1-wSg6yfJ7Noq8HjbR/3sEUBowNWs=
 
-floki-uikit@0.0.1-alpha.1:
-  version "0.0.1-alpha.1"
-  resolved "https://registry.npmjs.org/floki-uikit/-/floki-uikit-0.0.1-alpha.1.tgz#f1b2757c0350162b4d9c74c30539d4a69603a812"
-  integrity sha512-WVAE+3w7Qmw0waZN/7Ue43r3Zt8VQblq4JYVbNx8GRTWuKFQv3TzBw7LvKknYMdQybhs77pPhymbB/r7AS+l1g==
+floki-uikit@^0.0.1-alpha.2:
+  version "0.0.1-alpha.2"
+  resolved "https://registry.npmjs.org/floki-uikit/-/floki-uikit-0.0.1-alpha.2.tgz#77b2876c081d06fe344bbc5e9bc604674298a09d"
+  integrity sha512-TVoNZo7PCEo8ToyHweeR/23A8+X6B8olYy3eAyXAtrZEVDtosgiB4gHUbinqKAqkQFoc382bpVOI5iUTkKpowQ==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"
