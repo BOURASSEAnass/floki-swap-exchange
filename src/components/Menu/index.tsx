@@ -8,14 +8,14 @@ import useGetPriceData from 'hooks/useGetPriceData'
 import useGetLocalProfile from 'hooks/useGetLocalProfile'
 import useAuth from 'hooks/useAuth'
 import links from './config'
-import { CAKE } from '../../constants'
+import { FLOKI } from '../../constants'
 
 const Menu: React.FC = (props) => {
   const { account } = useWeb3React()
   const { login, logout } = useAuth()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
-  const priceData = useGetPriceData(CAKE.address)
+  const priceData = useGetPriceData(FLOKI.address)
   const cakePriceUsd = priceData ? Number(priceData.data.price) : undefined
   const profile = useGetLocalProfile()
 

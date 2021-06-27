@@ -9,7 +9,7 @@ type ChainTokenList = {
 
 export const FLOKI = new Token(
   ChainId.MAINNET,
-  '0xDDe370A84BE4Da800f7A2544c79a7bdfB47c1417',
+  '0xf983fcbedfc59d53425de5eb1cdea806db9c1cef',
   18,
   'FLOKI',
   'Cheeswap Token'
