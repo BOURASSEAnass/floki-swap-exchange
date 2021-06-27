@@ -19,14 +19,6 @@
       "logoURI": "http://flokidoge.com/exchange/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
     },
     {
-      "name": "Floki Token",
-      "symbol": "FLOKI",
-      "address": "0xdde370a84be4da800f7a2544c79a7bdfb47c1417",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "http://flokidoge.com/exchange/images/coins/0xdde370a84be4da800f7a2544c79a7bdfb47c1417.png"
-    },
-    {
       "name": "Bakery Token",
       "symbol": "BAKE",
       "address": "0xe02df9e3e622debdd69fb838bb799e3f168902c5",

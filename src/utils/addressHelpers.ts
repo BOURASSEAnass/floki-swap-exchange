@@ -1,5 +1,5 @@
 import addresses from 'constants/contracts'
-import tokens from 'constants/tokens'
+// import tokens from 'constants/tokens'
 import { Address } from 'constants/types'
 
 export const getAddress = (address: Address): string => {
@@ -8,21 +8,21 @@ export const getAddress = (address: Address): string => {
   return address[chainId] ? address[chainId] : address[mainNetChainId]
 }
 
-export const getCakeAddress = () => {
-  return getAddress(tokens.cake.address)
-}
-export const getCheeseAddress = () => {
-  return getAddress(tokens.cheese.address)
-}
+// export const getCakeAddress = () => {
+//   return getAddress(tokens.cake.address)
+// }
+// export const getCheeseAddress = () => {
+//   return getAddress(tokens.cheese.address)
+// }
 export const getMasterChefAddress = () => {
   return getAddress(addresses.masterChef)
 }
 export const getMulticallAddress = () => {
   return getAddress(addresses.multiCall)
 }
-export const getWbnbAddress = () => {
-  return getAddress(tokens.wbnb.address)
-}
+// export const getWbnbAddress = () => {
+//   return getAddress(tokens.wbnb.address)
+// }
 export const getLotteryAddress = () => {
   return getAddress(addresses.lottery)
 }
